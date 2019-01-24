@@ -29,7 +29,7 @@ import goodlist from '../pages/goodlist.vue'
 // 配置路由
 const routes = [
     // 如果url的路由为 /foo，进入Foo组件
-    {
+    { 
         path: '/app',
         // 路由命名，方便跳转
         name: 'app',
@@ -51,22 +51,16 @@ const routes = [
             path: 'Toppage',
             name: 'Toppage',
             component: Toppage
-
-
         },
         {
             path: 'Classlist',
             name: 'Classlist',
             component: Classlist
-
-
         },
         {
             path: 'Shopcar',
             name: 'Shopcar',
             component: Shopcar
-
-
         },
         {
             path: 'Main',

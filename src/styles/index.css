@@ -384,7 +384,7 @@ img {
 .screenlayer_content_div{height:100%;overflow-y: scroll;padding-top:20px;-webkit-overflow-scrolling:touch;padding-bottom: 40px;}
 .screen_item{padding-bottom:20px;padding-left:20px;}
 
-/*分类的tabbar样式*/
+/*分类的tabb.sar样式*/
 .screenlayerTabbar{
     height: 96%;
 }
@@ -410,7 +410,7 @@ img {
     top:50%;
     display: inline-block;
     width: 42%;
-    border-bottom: 1px dashed #000;
+    /* border-bottom: 1px dashed #000; */
 }
 .screen_item_more_Left{
     left: 0;
@@ -730,3 +730,144 @@ img {
 .showBtn{
     background: #ec2424;
 }
+
+
+
+
+
+
+
+/* html,body{background:#f4f4f4!important; } */
+#app { padding-bottom: 150px;}
+.account_user{position: relative;height: 80px;padding: 15px;background: #fff;display: block;}
+.account_user_into{
+    top: 30px;
+    right: 15px;
+    position: absolute;
+    width: 12px;
+    height: 24px;
+}
+.account_user_img_box{width: 50px;height: 50px;position: relative;}
+.account_user_img{/*display:block;position: absolute;z-index: 1;top:15px;left: 15px;*/width: 50px;height: 50px;border: 1px solid #fff;border-radius: 50%;}
+.account_user .img_input{display: block;width: 100%;height:100%;opacity: 0;position: absolute;top: 0;left: 0;z-index: 99;}
+.account_user_name{ font-size: 14px;color: #999;}
+.account_name { font-size: 14px;color:#333;}
+.personal_text { display: inline-block;padding-left:10px;line-height: 25px;}
+.account_label { padding:3px 3px;text-align: center;line-height: 20px;font-size: 10px;color: #c19a3b;border: 1px solid #c19a3b;border-radius: 4px;margin-left: 7px;}
+.account_data { text-align: center;background: #fff;padding-bottom:7px;}
+.account_data_text { color: #999;}
+
+
+.width20{
+    width:20%!important;
+    text-align: center!important;background:#fff;height: 85px;padding: 15px 0 5px 0!important;position: relative;
+}
+.account_fluid .col-xs-3{text-align: center;background:#fff;height: 85px;padding: 15px 0 5px 0;position: relative;}
+.fluid_item{padding-top: 25px;display: inline-block;margin-top:10px; }
+.fluid_item_1{background-size:20px;}
+.fluid_item_2{background-size:20px;}
+.fluid_item_3{background-size:20px;}
+.fluid_item_4{background-size:20px;}
+.fluid_item_5{background-size:20px;}
+
+.income_icon{
+    padding-left: 25px;
+   background-size:20px;
+    display: inline-block;
+}
+.income{
+    text-align: center;
+}
+.income .col-xs-4 p{
+    color:#666 !important;
+    font-size: 13px;
+}
+.income .col-xs-4 .red{
+    color:#f55454!important;
+    font-size: 17px;
+}
+.income .col-xs-4:nth-of-type(2) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.border_top{border-top:10px solid #f4f4f4;}
+.block{/*height: 50px;*/line-height: 22px;padding:15px;border-bottom: 1px solid #e0e0e0;background:#fff;}
+.block_a{background-size: 8px; ;
+    display: block; text-align: right;color: #999;padding-right: 20px!important;}
+.block_a:link { color: #999;}
+.block_a:hover { color: #999;}
+.block_a:visited { color: #999;}
+.block_p { color:#333333;font-weight: bold;}
+.row_a { display: block; }
+.block:last-child { border: none;}
+.intro_bang{
+    text-align: right;
+    color:#999;
+}
+.No_bang{
+    padding-right: 20px!important;
+}
+.reminder_msg { width: 16px;height: 16px;background: #ec1927;border-radius: 50%;color: #fff;    display: inline-block;  line-height: 16px;
+    position: absolute;right:26px ;top: 14px;font-size: 10px;}
+
+/*safetyé¡µé¢çš„æ ·å¼*/
+.header { background: #f0f0f0!important;}
+.app { background: #fff;height: 100%;}
+/*.border_top { border-top: 10px solid #fff;}*/
+.border_top .safety { height: 50px;line-height: 48px;border-bottom: 1px solid #e0e0e0;background: #fff; padding-top: 2px;margin: 0 15px!important;}
+.safety_num { color: #999;}
+.amend_btn { color: #c19a3b;text-align: right;}
+.exit_login { background: #333;text-align: center;line-height: 45px;color: #fff;font-size: 18px;border-radius: 5px;margin: 65px 15px 0 15px;}
+.setUp{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*personalé¡µé¢æ ·å¼*/
+.compile_btn { background: #c19a3b;color: #fff;text-align: center;line-height: 20px;padding: 0 4px;
+    border-radius: 4px;display: inline-block;font-size: 12px;position: absolute;top:19px;right:13px;}
+.row_intro { color: #999;}
+.account_personal { border-top: 1px solid #E0E0E0;}
+.compile_btn:link { color: #fff;}
+.compile_btn:hover { color: #fff;}
+.compile_btn:visited { color: #fff;}
+
+
+/*modifiedé¡µé¢æ ·å¼*/
+.head_portrait {background-size:8px;
+    display: block; text-align: right;color: #999;padding-right: 20px!important;margin-top: 15px;}
+.row_input { height: 25px;line-height: 25px;border: none;/*margin-top: 12.5px;*/outline: none;}
+.save_btn { width: 80%;background: #c19a3b;color: #fff;font-size: 16px;height: 40px;line-height: 40px;text-align: center;margin: 0 auto;border-radius: 4px;margin-top: 20px;}
+
+/*æç¤º*/
+.login_error{position: fixed;text-align: center;width: 100%;left: 0;top: 60%;z-index: 999;}
+.error_tip{display: inline-block;margin: 0 auto;line-height:18px;background:#dbdbdb;color:#333333;padding:13px 15px;border-radius:25px;}
+
+/*æŽ¨èäºº*/
+.noModify{
+    color:#f55454;
+    font-size: 0.28rem;
+    padding:0px 0 10px;
+}
+.refereePhone input{
+    height: 22px!important;
+    padding: 0!important;
+}
+.referee .block{
+    padding: 9px 15px;
+}
+.referee .row_intro{
+    color:#333;
+}
+.refereeBtn{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 35px 15px 0 15px;
+    background: #f55454;
+}
+
+
+

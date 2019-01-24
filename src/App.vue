@@ -4,7 +4,7 @@
     <Xsearch />
     <Xpanel /> -->
     <router-view></router-view>
-    <Xfooter/>
+    <Xfooter/> 
   </div>
 </template>
 
