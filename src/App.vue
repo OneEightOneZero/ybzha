@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Xheader />
+    <Xsearch />
+    <Xpanel /> -->
+    <router-view></router-view>
+    <Xfooter/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// 引用组件
+// import Xheader from './components/Xheader.vue'
+// import Xsearch from './components/Xsearch.vue'
+// import Xpanel from './components/Xpanel.vue'
+import Xfooter from './components/Xfooter.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // 注册组件
+    // 引用组件，在注册，然后在template使用
+    // Xheader,
+    // Xsearch,
+    // Xpanel,
+    Xfooter
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
